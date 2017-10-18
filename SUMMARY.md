@@ -2,7 +2,9 @@
 
 * [Introduction](README.md)
 
-## \_\_pages
+## pages
 
-* [Miels](pages/miels.md)
+* [Miels](/pages/miels.md)
+
+
 
