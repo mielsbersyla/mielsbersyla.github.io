@@ -4,5 +4,5 @@ layout: default
 
 # Miels Bersyla
 
-test
+test content
 
