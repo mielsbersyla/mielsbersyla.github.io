@@ -50,19 +50,16 @@
         </div>
       </nav>
     </div>
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title">
-          The new standard in &lt;insert industry here&gt;
-        </h1>
-        <h2 class="subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </h2>
-      </div>
-    </div>
+    
+    {% include header.html %}
+    {% include hero.html %}
 
   </section>
-  <section class="container">
+    {% include header.html %}
+    {% include hero.html %}
+    {% include notice.html %}
+    {% include footer.html %}
+    <section class="container">
       <div class="content">
         {{ content }}
       <div>
