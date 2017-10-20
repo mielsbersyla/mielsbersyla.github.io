@@ -1,6 +1,5 @@
 ---
 layout: default
-# hero: fullheight
 title: Title
 subtitle: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -13,7 +12,9 @@ image: assets/images/home_background.jpg
 
 test content 2
 
-
-
 test
+
+{{page.title}}
+
+![](/assets/19667464_1860539910931807_5174427428604863992_o.jpg)
 
