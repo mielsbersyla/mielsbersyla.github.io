@@ -16,5 +16,5 @@ test
 
 {{page.title}}
 
-<img align="right" width="100" height="100" src="/assets/19667464_1860539910931807_5174427428604863992_o.jp">
+<img align="right" width="100" height="100" src="/assets/19667464_1860539910931807_5174427428604863992_o.jpg">
 
