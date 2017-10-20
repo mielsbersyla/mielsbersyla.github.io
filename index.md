@@ -6,3 +6,5 @@ layout: default
 
 test content 2
 
+test
+
