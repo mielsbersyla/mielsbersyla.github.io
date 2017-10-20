@@ -8,7 +8,11 @@
     <link href="{{ "/assets/css/styles.css?v=" | append: site.github.build_revision | relative_url}}" rel="stylesheet">
   </head>
   <body>
-  <section class="hero is-info is-medium is-bold">
+  <section class="hero is-info {% if page.hero %}is-{{page.hero}}{% endif %} is-bold"
+  {% if page.image %} 
+    style="background: url('{{page.image}}') center center; background-size:cover;"
+  {% endif %}
+  >
     {% include header.html %}
     {% include hero.html %}
   </section>
