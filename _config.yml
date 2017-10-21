@@ -10,3 +10,5 @@ collections:
     output: true
 sass:
   sass_dir: _sass
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
