@@ -1,0 +1,14 @@
+$black: hsl(0, 0%, 4%);
+$white: hsl(0, 0%, 100%);
+
+$pink: #f283b5;
+$orange: #e4a03a;
+$purple: #765aa1;
+$primary: #000000;
+
+$colors: (
+  "primary": ($primary, $white),
+  "pink": ($pink, $white),
+  "orange": ($orange, $white),
+  "purple": ($purple, $white)
+);

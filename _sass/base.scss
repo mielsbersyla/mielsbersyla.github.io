@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+}
+
+.page-title {
+  margin-top: 52px;
+}
+
+.page-content {
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.hero {
+  background-size: cover;
+}
+
+.logo {
+  //width: 127px;
+}
+
+.fb-page {
+  margin: auto;
+}
+
+.navbar .navbar-menu {
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+    .navbar-item.is-active.is-#{$name} {
+      background-color: $color !important;
+      color: $color-invert !important;
+    }
+  }
+}
