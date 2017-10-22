@@ -12,5 +12,5 @@ sass:
   sass_dir: _sass
 excerpt_separator: <!--more-->
 facebook_app_id: 1745267542200726
-gems: ['kramdown']
+plugins: ['jekyll-admin','kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']

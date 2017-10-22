@@ -3,6 +3,7 @@ layout: default
 title: Nouvelles
 image: assets/images/products.jpg
 color: orange
+order: 2
 ---
 <div class="columns">
   <div class="column">

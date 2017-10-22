@@ -1,8 +1,6 @@
-<section class="hero page-title {% if page.hero == nil and page.color %}is-{{page.color}}{% else %}is-primary{% endif %} {% if page.hero %}is-{{page.hero}}{% endif %} is-bold"
-  {% if page.image %} style="background:    linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ), url('{{page.image}}') center center; background-size:cover;" {% endif %}>
+<section class="hero page-hero is-bold {% if page.hero == nil and page.color %}is-{{page.color}}{% else %}is-primary{% endif %} {% if page.hero %}is-{{page.hero}}{% endif %}"
+  {% if page.image %} style="background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('{{page.image}}') center center; background-size:cover;"
+  {% endif %}>
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title">
